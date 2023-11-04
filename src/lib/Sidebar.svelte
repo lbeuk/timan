@@ -15,6 +15,7 @@
 		display: flex;
 		flex-direction: column;
 		padding: 5px;
+		border-right: 1px solid var(--theme-bg-border-color);
 	}
 
 	.sidebar a {
