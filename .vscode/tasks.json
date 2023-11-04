@@ -6,7 +6,7 @@
 			"script": "tauri-dev",
 			"problemMatcher": [],
 			"label": "npm: tauri",
-			"detail": "Build Tauri"
+			"detail": "Build Tauri Dev"
 		}
 	]
 }
