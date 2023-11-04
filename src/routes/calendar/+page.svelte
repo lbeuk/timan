@@ -132,7 +132,7 @@
 	<div class="calendar-content">Hello</div>
 </div>
 
-<style lang="scss">
+<style>
 	.calendar-page {
 		flex-grow: 1;
 		display: flex;
