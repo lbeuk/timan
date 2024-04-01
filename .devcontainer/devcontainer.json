@@ -21,7 +21,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": ". ${NVM_DIR}/nvm.sh && nvm install --lts",
+	"postCreateCommand": ". ${NVM_DIR}/nvm.sh && nvm install --lts; npm i",
 
 	// Configure tool-specific properties.
 	"customizations": {
@@ -29,7 +29,6 @@
 			"extensions": [
 				"vadimcn.vscode-lldb",
 				"rust-lang.rust-analyzer",
-				"tamasfe.even-better-toml",
 				"tamasfe.even-better-toml",
 				"svelte.svelte-vscode",
 				"esbenp.prettier-vscode",
